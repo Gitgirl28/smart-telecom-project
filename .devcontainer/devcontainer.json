@@ -1,0 +1,11 @@
+{
+  "name": "Smart Telecom Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "runArgs": [
+    "-p", "8080:8080",
+    "--network", "smart-telecom-network"
+  ]
+}
